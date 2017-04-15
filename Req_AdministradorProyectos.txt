@@ -1,0 +1,50 @@
+System resources are users, projects, sprints, user stories and flows.
+Only users with the necessary permissions can interact with a resource.
+The permits will be registered by default in the system.
+The permissions established by the system in terms of users: can create user.
+The permissions established by the system in terms of users: can modify user.
+The permissions set by the system in terms of users: can delete user.
+The permissions set by the system in terms of users: can assign roles in the system.
+The permissions set by the system in terms of users: can deallocate roles in the system.
+The permissions set by the system in terms of users: can assign roles in the project.
+The permissions set by the system in terms of users: can deallocate roles in the project.
+The permissions set by the system in terms of roles: create role system, role of system change, delete system role.
+The permissions set by the system in terms of projects: create project, modify the project, delete project user add, expel project user.
+The permissions set by the system in terms of sprints: create sprint, sprint modify, delete sprint, assign users to a sprint story, story users deallocate a sprint.
+The permissions set by the system in terms of user stories: create user story, story modify user, delete user story, change status of a user story, approve user story, assign user to user story, deallocate user user story.
+The permissions set by the system in terms of flows: create flow, flow change, delete flow, add a user story flow, remove a user story flow.
+The permissions set by the system in terms of reporting: report request.
+The permissions are grouped into a role, which is then assigned to a user to interact with the system or with a project.
+The role can be of the manager role type.
+The role can be of the project role type.
+The default system role manager: with all default permissions.
+The project manager role will have permissions to create Projects. 
+The project manager role will have permissions to modify project.
+The project manager role will have permissions to delete projects.
+The project manager role will have permissions to add users to the project.
+The project manager role will have permissions to expel project user.
+The project manager role will have permissions to assign roles in the project and deallocate roles in the project.
+The default project roles are: ScrumMaster, ProductOwner, Team.
+The system will assign one or more roles to a user manager.
+The system will assign one or more roles to a user project for each project.
+A role must have at least one permit.
+A role can be registered at any time.
+The user be logged in and to have permission to create roles.
+The role must have a unique name.
+Permissions must be listed, and at least one must be selected to be modified.
+To create a role, the role type option must be selected, the options are manager role and role of project.
+When creating a role, must be confirmed the creation of the role, or otherwise cancel.
+The administrator user, must be have permissions to modify roles.
+The user can select the role editing option.
+The user should select the role to be edited.
+The user must be able to select the permissions of the list of all possible permissions and indicate which ones belong to the selected role and which does not.
+The user it may allocate or deallocate the permissions to be changed.
+The user must have the option to confirm the modification of permissions, or cancel otherwise.
+The user must be logged in and have permission for the removal of roles.
+The user must select the role to be deleted.
+The user must confirm the role to be deleted, or cancel otherwise.
+The system must assign an identification code to the user.
+The default user named root will have the role of system administrator, which by default has all the permissions.
+The user may have associated one or more projects and may not belong to any project.
+The system should allow the creation, modification, deletion and logging of users at any time.
+The user must be logged into the system and have permission to create users.

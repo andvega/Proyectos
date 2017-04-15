@@ -1,0 +1,50 @@
+It must provide a user maintenance screen, in which you can work with user data
+In the user maintenance screen, registered users should be listed
+In the user maintenance screen must be provide the following filters: state, login name, profile
+The user screen should allow users be register
+The user screen must allow, delete users
+The user screen should allow to modify the user data
+When registering a user, must be assign the active state
+When your delete a user, must be assign inactive status
+When registering a user, be must validate that the login name to be unique
+When registering a user, must be load the required data
+When your modify a user, be must validate the required data
+When registering a user, must be consider the following information: user ID, login name, status, password, expiration, attempts to change pasword, discharge date, modification date, user and user high modification, identifier associated profile, area, branch office
+The user ID, must be an automatically generated number
+By changing some user data, must be issued a message requesting confirmation of the change
+The user screen, must have a list the options available to select profiles
+The user screen, must have a list the options available to select areas
+The user screen, must have a list the options available to select states
+The user screen, must have a list the options available to delete profiles
+The user screen, must have a list the options available to delete areas
+The user screen, must have a list the options available to delete states
+The user screen, should allow to select a list of users to perform some massive change
+By default it should generate an encrypted pasword to be sent to the user
+The user login name must not exceed the length of 10 characters
+It should provide a profiles screen mantinance, that permit to work with profiling data
+In the profiles screen maintenance, should be listed profiles registered
+In the profiles screen maintenance, must be provided the following filters: status, profile
+In the profiles screen maintenance, should be allowed profiles register
+In the profiles screen maintenance, be must allow to delete profiles
+In the profiles screen maintenance, should be allowed change profiles
+By registering a profile, must be assigned the active state
+When you delete a profile, must be assigned inactive status
+By registering a profile, must be validated that the code is unique
+By registering a profile, should be uploaded the mandatory data
+When you edit a profile, must be validated that the required data, they are loaded
+To register a profile, must be taken into account the following information, Profile identifier, number, description, status, date, modification date, high user and user modification.
+By changing some profile data, must be issue a message requesting confirmation of the change
+In the profile modification screen, must be listed the options available to select states
+Should be allowed select a number of profiles in the list of profiles for perfom a massive change
+The profile code must not exceed the length of 10 characters
+It should be provided a profile screen, that allow to assign a number of role to a given profile
+By associating a role to a profile, it should validate that this association is unique
+It should be allowed modify the associations, roles and profiles 
+It should be allowed remove the associations, roles and profiles 
+It should registered the user and the date it was made the association, roles to profiles
+It must provide a role screen maintenance, to permit work with data from role
+In the roles screen mantinance, must be listed the registered roles
+In the roles screen maintenance, must be provided the following filters: status, role
+The roles screen, should allow to register roles
+The roles screen, should allow to remove roles
+The roles screen, should allow to change roles
